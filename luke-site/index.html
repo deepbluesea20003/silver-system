@@ -3,38 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Top 5 List</title>
+    <title>Top 10 List</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1> Luke's fun website </h1>
-<div> I've been on nearly 100 rollercoasters, here are my top 5
-</div>
-
-    <div class="container">
-        <h1>Top 5 List</h1>
-        <ul class="top-list">
-            <li>
-                <img src="https://blooloop.com/wp-content/uploads/2021/07/Plopsaland-Ride-To-Happiness_.jpg" alt="ride to happiness">
-                <p><b>#5</b> is Ride to Happiness which is at Plopsaland de Panne in Belgium. It's one of only two "extreme spinning coasters" of its kind.</p>
-            </li>
-            <li>
-                <img src="https://www.europapark.de/sites/default/files/styles/wide/public/media_image/2023-07/EP23_Island_Wodan_Sommer_25.jpg?itok=ZvPbYc0v" alt="wodan timburcoaster">
-                <p><b>#4</b> is Wodan Timburcoaster at Europa Park in Germany </p>
-            </li>
-            <li>
-                <img src="image3.jpg" alt="Item 3">
-                <p>Item 3 Description</p>
-            </li>
-            <li>
-                <img src="image4.jpg" alt="Item 4">
-                <p>Item 4 Description</p>
-            </li>
-            <li>
-                <img src="image5.jpg" alt="Item 5">
-                <p>Item 5 Description</p>
-            </li>
-        </ul>
+    <header>
+        <h1>Top 10 List</h1>
+    </header>
+    <div class="slideshow-container">
+        <div class="slideshow-image">
+            <img src="image1.jpg" alt="Image 1">
+        </div>
+        <div class="slideshow-image">
+            <img src="image2.jpg" alt="Image 2">
+        </div>
+        <!-- Add more image divs as needed -->
     </div>
+    <div class="description">
+        <p id="description-text">Description for Image 1</p>
+    </div>
+    <div class="navigation">
+        <button onclick="changeSlide(-1)">Previous</button>
+        <button onclick="changeSlide(1)">Next</button>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
