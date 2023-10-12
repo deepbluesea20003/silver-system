@@ -15,7 +15,7 @@ header {
 .slideshow-container {
     max-width: 1000px;
     margin: 20px auto;
-    position: center;
+    position: relative;
 }
 
 .slideshow-image {
@@ -29,6 +29,7 @@ header {
 
 .description {
     text-align: center;
+    max-width: 1000px;
     padding: 20px;
 }
 
