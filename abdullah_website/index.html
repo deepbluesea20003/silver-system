@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fun Web Page</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<h1>Welcome to the Fun Page!</h1>
+
+<p>Click the button to change the background color:</p>
+
+<button id="colorButton">Change Color</button>
+
+<script>
+    // JavaScript code to change the background color
+    document.getElementById("colorButton").addEventListener("click", function() {
+        var colors = ["#FF5733", "#33FF57", "#5733FF", "#FF3357", "#33FF9A"];
+        var randomColor = colors[Math.floor(Math.random() * colors.length)];
+        document.body.style.backgroundColor = randomColor;
+    });
+</script>
+
+</body>
+</html>
+
