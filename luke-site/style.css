@@ -13,9 +13,9 @@ header {
 }
 
 .slideshow-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 20px auto;
-    position: relative;
+    position: center;
 }
 
 .slideshow-image {
